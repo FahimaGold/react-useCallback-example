@@ -30,7 +30,7 @@ function App() {
     <p>{count}</p>
     <h1>Items</h1>
     {items.map((item) => (
-        <Items key={item.id} item={item.name} onDelete={handleItemDeleteUseCallback} itemId = {item.id} />
+        <Items key={item.id} item={item.name} onDelete={handleItemDelete} itemId = {item.id} />
       ))}
    
     </>
