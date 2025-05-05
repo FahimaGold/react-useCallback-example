@@ -25,3 +25,10 @@ When the counter is incremented, it causes the parent component (`App`) to re-re
 
 👉 `Item` only re-renders when its relevant props change.  
 (_See: `useCallback-example.gif`_)
+
+
+## ✨ Benefits
+
+- Improved performance
+- Fewer unnecessary re-renders
+- Useful when dealing with heavy child components
