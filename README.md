@@ -18,7 +18,7 @@ When the counter is incremented, it causes the parent component (`App`) to re-re
 👉 `Item` re-renders unnecessarily every time the counter updates.  
 (_See: `example-without-useCallback.gif`_)
 
-### With using useCallbacks
+### 👀 With using useCallbacks
 
 ![useCallbacks-example](https://github.com/FahimaGold/react-useCallback-example/assets/13876176/7d590d83-c133-4be6-be33-738552e45718)
 
